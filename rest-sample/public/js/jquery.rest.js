@@ -51,7 +51,7 @@ $(document).ready(function(){
 		put: function(url, data, success, error, type) {
 			if ($.isFunction(data)) {
 				success = data;
-				error = success
+				error = success;
 				type = error;
 				data = {};
 			}
@@ -69,7 +69,7 @@ $(document).ready(function(){
 		delete: function(url, data, success, error, type) {
 			if ($.isFunction(data)) {
 				success = data;
-				error = success
+				error = success;
 				type = error;
 				data = {};
 			}
