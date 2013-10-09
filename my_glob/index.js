@@ -1,4 +1,4 @@
-var glob = require("glob")
+var glob = require("glob");
 
 options = null;
 options = {statCache: true};
@@ -9,4 +9,4 @@ glob("**/*.js", options, function (er, files) {
 	// was found, then files is ["**/*.js"]
 	// er is an error object or null.
 	console.log(files);
-})
+});
